@@ -13,25 +13,45 @@
 }
 
 body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: var(--fourth-color)
 }
 
 
 /* GENERAL STYLES */
 section {
+    padding: 20px 30px 20px 20px;
 }
 
 a {
+    text-decoration: none;
 }
 
 .section-title {
+    font-size: 40px;
+    text-align: end;
+    padding: 0 15px 0px 0;
+    color: var(--tertiary-color);
+    font-weight: bold;
 }
 
 .sidebar-content {
+    display: flex;
+    flex-wrap: wrap;
 }
 .sidebar {
+    flex: 1 20%;
+    border-right: 3px solid var(--tertiary-color);
 }
 
 .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 2 80%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
 }
 /* GENERAL STYLES END */
 
