@@ -221,28 +221,37 @@ header nav ul li a:hover {
 
 /* FOOTER STYLE START */
 footer {
-  
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    width: 100%;
+    padding: 10px;
 }
 
 .footer-flex {
-   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .footer-content {
-  
+    width: 100px;
+    display: flex;
 }
 
 .footer-content img {
-   
+    width: 100%;
+    padding: 3px;
 }
 
 .footer-copyright {
-  
+    text-align: center;
+    width: 100%;
+    padding-bottom: 5px;
 }
 
 /* Pseudo class for Footer */
 .footer-content img:hover {
-   
+    filter: brightness(2);
 }
 /* FOOTER STYLE END */
 
