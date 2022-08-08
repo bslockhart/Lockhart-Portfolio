@@ -1,0 +1,181 @@
+:root {
+    --primary-color: #92cccd;
+    --secondary-color: #31343d;
+    --tertiary-color: #445876;
+    --fourth-color: #ededf6;
+    --teal: #39a6b2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+}
+
+
+/* GENERAL STYLES */
+section {
+}
+
+a {
+}
+
+.section-title {
+}
+
+.sidebar-content {
+}
+.sidebar {
+}
+
+.content {
+}
+/* GENERAL STYLES END */
+
+
+/* HEADER STYLE START */
+header {
+}
+
+header h1 {
+}
+
+header nav ul {
+}
+
+header nav ul li a {
+}
+
+/* Pseudo for header */
+header nav ul li a:hover {
+}
+/* HEADER STYLE END */
+
+
+/* HERO STYLE */
+.hero {
+
+}
+
+.hero-content {
+
+}
+
+.hero-content h2 {
+
+}
+
+/* HERO STYLE END */
+
+
+/* ABOUT ME STYLE */
+
+.about-me-img {
+
+}
+
+.about-me-img img {
+
+}
+
+.about-me-info {
+
+}
+
+/* PROJECTS STYLE START */
+
+.main, .row {
+ 
+}
+
+.row {
+   
+}
+
+.main img, .row img {
+  
+}
+
+.work-text {
+ 
+}
+
+.work-text h4 {
+   
+}
+
+.work-text p {
+   
+}
+
+/* Pseudo Classes for Work section */
+.main:hover, 
+.row:hover {
+    
+}
+
+/* PROJECTS STYLE END */
+
+
+/* CONTACT STYLE START */
+
+.contact {
+   
+}
+
+.contact-info ul {
+    
+}
+
+.contact-info ul, a {
+
+}
+
+.contact-info ul li {
+   
+}
+
+/* Pseudo for Contact */
+}
+/* CONTACT STYLE END */
+
+
+/* FOOTER STYLE START */
+footer {
+  
+}
+
+.footer-flex {
+   
+}
+
+.footer-content {
+  
+}
+
+.footer-content img {
+   
+}
+
+.footer-copyright {
+  
+}
+
+/* Pseudo class for Footer */
+.footer-content img:hover {
+   
+}
+/* FOOTER STYLE END */
+
+
+/* MEDIA QUERIES START */
+/* Media Query for <=1200px */
+
+/* Media Query for smaller desktop; <= 980px */
+
+/* Media Query for Tablets and smaller <=768px */
+
+/* Media Query for Mobile phones and smaller <= 575px */
