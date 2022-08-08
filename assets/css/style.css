@@ -190,24 +190,31 @@ header nav ul li a:hover {
 
 
 /* CONTACT STYLE START */
-
 .contact {
-   
+    align-self: center;
+    justify-content: space-around;
 }
 
 .contact-info ul {
-    
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .contact-info ul, a {
-
+    color: var(--secondary-color);
+    font-size: 22px;
+    list-style: none;
 }
 
 .contact-info ul li {
-   
+    padding: 0 3px 5px 3px;
+    border-bottom: 4px solid var(--tertiary-color);
+    margin: 10px 28px;
 }
 
 /* Pseudo for Contact */
+.contact-info ul li a:hover {
+    font-weight: bold;
 }
 /* CONTACT STYLE END */
 
