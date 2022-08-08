@@ -125,18 +125,26 @@ header nav ul li a:hover {
 
 
 /* ABOUT ME STYLE */
-
 .about-me-img {
-
+    align-items: center;
+    padding-right: 20px;
+    width: 200px;
+    margin: auto 0;
 }
 
 .about-me-img img {
-
+    width: 100%;
 }
 
 .about-me-info {
-
+    color: var(--tertiary-color);
+    font-weight: lighter;    
+    font-size: 20px;
+    line-height: 1.4;
+    flex: 1;
+    margin: auto 0;
 }
+/* ABOUT ME STYLE ENDS */
 
 /* PROJECTS STYLE START */
 
