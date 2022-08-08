@@ -58,19 +58,43 @@ a {
 
 /* HEADER STYLE START */
 header {
+    background: var(--secondary-color);
+    padding: 10px 10px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 header h1 {
+    font-weight: normal;
+    font-size: 40px;
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    padding: 10px 15px 10px 50px;
 }
 
 header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-right: 60px;
 }
 
 header nav ul li a {
+    font-weight: lighter;
+    font-size: 18px;
+    margin: 0 7px;
+    padding: 0 7px 3px 7px;
+    border-bottom: 3px solid var(--primary-color);
+    color: var(--primary-color);
 }
 
 /* Pseudo for header */
 header nav ul li a:hover {
+    font-weight: bold;
 }
 /* HEADER STYLE END */
 
