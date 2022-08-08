@@ -121,10 +121,12 @@ header nav ul li a:hover {
     color: var(--secondary-color);
     font-size: 28px;
 }
+
 /* HERO STYLE END */
 
 
 /* ABOUT ME STYLE */
+
 .about-me-img {
     align-items: center;
     padding-right: 20px;
@@ -144,9 +146,9 @@ header nav ul li a:hover {
     flex: 1;
     margin: auto 0;
 }
-/* ABOUT ME STYLE ENDS */
 
 /* PROJECTS STYLE START */
+
 .main, .row {
     padding: 5px;
     position: relative;
@@ -186,10 +188,12 @@ header nav ul li a:hover {
 .row:hover {
     filter:saturate(100%);
 }
+
 /* PROJECTS STYLE END */
 
 
 /* CONTACT STYLE START */
+
 .contact {
     align-self: center;
     justify-content: space-around;
