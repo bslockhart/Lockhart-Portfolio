@@ -147,37 +147,45 @@ header nav ul li a:hover {
 /* ABOUT ME STYLE ENDS */
 
 /* PROJECTS STYLE START */
-
 .main, .row {
- 
+    padding: 5px;
+    position: relative;
+    filter: saturate(50%);
+    transition: .3s ease;
 }
 
 .row {
-   
+    flex: 50%;
 }
 
 .main img, .row img {
-  
+    width: 100%;
+    border: 5px solid var(--primary-color);
 }
 
 .work-text {
- 
+    position: absolute;
+    bottom: 40px;
+    padding: 10px;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    line-height: 1.5;
 }
 
 .work-text h4 {
-   
+    font-size: 20px;
+    font-weight: normal;
 }
 
 .work-text p {
-   
+    font-size: 24px;
 }
 
 /* Pseudo Classes for Work section */
 .main:hover, 
 .row:hover {
-    
+    filter:saturate(100%);
 }
-
 /* PROJECTS STYLE END */
 
 
