@@ -1,4 +1,4 @@
-# Brian Lockhart Portfolio
+# Lockhart Portfolio
 
 ## Description
 A website to showcase my personal portfolio that can evolve as I progress in my studies. 
@@ -93,6 +93,7 @@ position
 * Repository contains quality readme with description, screenshot, link to deployed application.
 
 ### Submission
+* Date Submitted: August 9, 2022
 * The URL of the deployed application: https://bslockhart.github.io/Lockhart-Portfolio/
 * The URL of the GitHub repository that contains your code: https://github.com/bslockhart/Lockhart-Portfolio
 Give the repository a unique name and include a README file that describes the project.
